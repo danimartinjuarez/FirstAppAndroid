@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:layout_margin="16dp"
-    >
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:width="50dp"
         android:text="Hola "
-        android:layout_marginRight="2dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tu_nombre"
-        android:layout_marginRight="2dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/b_saludo"
-        android:text=" Eres genial!!!!"
-        />
+        android:textColor="@color/purple_500"
+        android:textSize="20dp" />
 
+    <TextView
+        android:id="@+id/tu_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:textColor="@color/purple_500"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/b_saludo"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:text=" Eres genial!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:baselineAligned="false"
+        android:lineSpacingMultiplier="2"
+        android:text="🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:translationZ="2dp" />
 </LinearLayout>
